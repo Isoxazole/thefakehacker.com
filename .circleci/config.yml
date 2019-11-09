@@ -1,9 +1,15 @@
+version: 2.1
+
+orbs:
+  aws-cli: circleci/aws-cli@0.1.16
+
 ## Customize the test machine
 machine:
 
   timezone:
     America/Los_Angeles # Set the timezone
 
+version: 2.1
 ## Customize dependencies
 dependencies:
   override:
