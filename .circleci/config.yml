@@ -7,9 +7,8 @@ orbs:
 machine:
 
   timezone:
-    America/Los_Angeles # Set the timezone
+    America/Denver # Set the timezone
 
-version: 2.1
 ## Customize dependencies
 dependencies:
   override:
@@ -29,4 +28,4 @@ deployment:
     commands:
       - hexo clean
       - hexo generate
-      - aws s3 sync public/ <s3://your-s3-bucket.com/>
+      - aws s3 sync public/ <s3://thefakehacker.com/>
