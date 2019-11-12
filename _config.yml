@@ -95,4 +95,6 @@ theme: alpha-dust
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: aws-s3
+  bucket: thefakehacker.com
+  region: us-east-1
