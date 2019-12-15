@@ -9,12 +9,10 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.0.0"
+    "version": "4.1.1"
   },
   "dependencies": {
-    "hexo": "^4.0.0",
-    "hexo-deployer-aws-s3": "^1.0.2",
-    "hexo-deployer-s3": "^0.2.4",
+    "hexo": "^4.1.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
@@ -23,5 +21,8 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0"
+  },
+  "devDependencies": {
+    "hexo-deployer-aws-s3": "^1.0.2"
   }
 }
