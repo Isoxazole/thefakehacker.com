@@ -341,6 +341,22 @@ section.main .post .content .pullquote {
 section.main .post .content .pullquote.left {
   float: left;
 }
+section.main .post .content .tab {
+  text-indent: 40px;
+}
+section.main .post .content .column {
+  float: left;
+  width: 50%;
+}
+section.main .post .content .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-right: 10px;
+}
+section.main .post .content li {
+  margin-right: 40px;
+}
 section.main .post .content img {
   display: block;
   margin: 0 auto;
