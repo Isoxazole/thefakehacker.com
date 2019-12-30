@@ -1,7 +1,8 @@
 ---
 title: How to Crack WPA2 Encrypted  WIFI
 date: 2019-11-16 14:48:54
-tags:
+tags: WPA2 Encryption
+categories: Info
 ---
 
 <p><i>Disclaimer: This information is purely for educational purposes. <strong> DO NOT </strong> try any of the techniques 

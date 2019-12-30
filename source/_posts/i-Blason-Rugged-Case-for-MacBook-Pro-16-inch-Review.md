@@ -1,7 +1,8 @@
 ---
 title: i-Blason Rugged Case for MacBook Pro 16 inch Review
 date: 2019-12-22 19:17:45
-tags: Review, MacBook Pro 16 inch case
+tags: MacBook Pro 16 inch case
+categories: Review
 ---
 <!DOCTYPE html>
 <html>

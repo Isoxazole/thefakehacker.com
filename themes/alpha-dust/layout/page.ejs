@@ -16,6 +16,11 @@
                         <%- partial('_partial/tag-cat-item', {item: {path: cat.path, title: cat.name}}) %>
                 <% }); %>
             </section>
+        <% }  else if (page.type === 'about' || page.type === 'contact') { %>
+            <%- partial('_partial/header.ejs', {logoIcon: page.logoIcon, headerTitle: page.title}) %>
+            <section class="main">
+                <%- partial('_partial/article-long-no-head', {item: page}) %>
+            </section>
         <% } else { %>
             <%- partial('_partial/header.ejs', {logoIcon: page.logoIcon, headerTitle: ''}) %>
             <section class="main">
