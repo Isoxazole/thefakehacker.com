@@ -3,6 +3,9 @@ title: i-Blason Rugged Case for MacBook Pro 16 inch Review
 date: 2019-12-22 19:17:45
 tags: MacBook Pro 16 inch case
 categories: Review
+description: 'The i-Blason Rugged Case for MacBook Pro 16 inch
+              is a nice, ruggedly designed, snugly fitting case which can help protect your
+              MacBook Pro from dirt, dust, drops, and bumps, all in one "slim", shock-absorbent package.'
 ---
 <!DOCTYPE html>
 <html>

@@ -3,6 +3,9 @@ title: How to Crack WPA2 Encrypted  WIFI
 date: 2019-11-16 14:48:54
 tags: WPA2 Encryption
 categories: Info
+description: "Many WPA2 encrypted networks use PSK (Pre-Shared Key) as the method for authentication to the
+              network and AES as the encryption method for the network which is provided by the router. Due to the ubiquity of WPA2-PSK 
+              encryption for home routers, that's what will be discussed in this article: How to crack WPA2 encrypted WIFI."
 ---
 
 <p><i>Disclaimer: This information is purely for educational purposes. <strong> DO NOT </strong> try any of the techniques 
@@ -19,4 +22,4 @@ Other protocols that make up a smaller percentage are WEP, WPA, and WPA3 (curren
 
 <p class = "tab">Many WPA2 encrypted networks use PSK (Pre-Shared Key) as the method for authentication to the
 network and AES as the encryption method for the network which is provided by the router. Due to the ubiquity of WPA2-PSK 
-encryption for home routers, that's what will be discussed in this article.</p>
+encryption for home routers, that's what will be discussed in this article: How to crack WPA2 encrypted WIFI.</p>
