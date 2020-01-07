@@ -23,3 +23,23 @@ Other protocols that make up a smaller percentage are WEP, WPA, and WPA3 (curren
 <p class = "tab">Many WPA2 encrypted networks use PSK (Pre-Shared Key) as the method for authentication to the
 network and AES as the encryption method for the network which is provided by the router. Due to the ubiquity of WPA2-PSK 
 encryption for home routers, that's what will be discussed in this article: How to crack WPA2 encrypted WIFI.</p>
+
+Things you'll need:
+<ul>
+
+<li>Computer with Kali Linux (Virtual Machine or Dual boot)</li>
+<li>Wireless adapter capable of using Monitor mode</li>
+<li>Router that YOU OWN or have the owner's permission to use (See Disclaimer)</li>
+<li>Another device to connect to the router (phone, another virtual machine, another computer, etc.</li>
+
+</ul>
+
+<h2><u>Overview of Cracking WIFI Password</u></h2>
+<p class="tab"> Before we dive into how to crack WIFI passwords, let's first go over briefly how this process works.
+Basically, when a device connects to the router with WPA2, there's a handshake that occurs during the connection. This 
+handshake, if captured can be used to figure out the password for the WPA2 encryption. So, in the following methods, our 
+goal will be to capture this handshake when a device connects to the router, so we can then take this handshake and 
+use it to find the password to connect to the WIFI. Alright, let's get started!
+ </p>
+ 
+ 
