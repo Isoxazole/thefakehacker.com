@@ -3,9 +3,7 @@ title: How to Crack WPA2 Encrypted  WIFI
 date: 2019-11-16 14:48:54
 tags: WPA2 Encryption
 categories: Info
-description: "Many WPA2 encrypted networks use PSK (Pre-Shared Key) as the method for authentication to the
-              network and AES as the encryption method for the network which is provided by the router. Due to the ubiquity of WPA2-PSK 
-              encryption for home routers, that's what will be discussed in this article: How to crack WPA2 encrypted WIFI."
+description: "How to crack WPA2 encrypted wifi using Kali Linux and get the password"
 ---
 
 <p><i>Disclaimer: This information is purely for educational purposes. <strong> DO NOT </strong> try any of the techniques 
@@ -166,7 +164,7 @@ that comes pre-downloaded on Kali Linux (you will have to unzip the file first t
 <br>
 <br>
 <p>Example:</p>
-<code>aircrack-ng -w /usr/share/wordlists/rockyou.txt -b B2:72:BF:DA:1C:9D handshake-01.cap</code>
+<code>aircrack-ng -w /usr/share/wordlists/rockyou.txt -b B2:72:BF:DA:1C:9D /root/Documents/handshake-01.cap</code>
 <br>
 <br>
 <p>After running the above command, each password in the list you provided will be tested until there is a match. 
